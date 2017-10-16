@@ -1,0 +1,23 @@
+{
+  "name": "serious-shell",
+  "version": "0.0.1",
+  "description": "An Angular.io component that allows you to run shell commands on servers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/j-rewerts/serious-shell.git"
+  },
+  "keywords": [
+    "shell",
+    "angular.io"
+  ],
+  "author": "Jared Rewerts",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/j-rewerts/serious-shell/issues"
+  },
+  "homepage": "https://github.com/j-rewerts/serious-shell#readme"
+}
