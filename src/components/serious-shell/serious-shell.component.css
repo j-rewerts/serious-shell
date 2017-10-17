@@ -1,0 +1,18 @@
+div.console-container {
+    font-size: 0.85em;
+	font-family: var(--monospace);
+	width: 60em;
+	max-width: 100%;
+	box-sizing: border-box;
+	height: 20em;
+	background: var(--background-color);
+	padding: 0.5em;
+	overflow: auto;
+	/* white-space: pre; */
+}
+
+div.console-message {
+	color: var(--message-color);
+	padding: 0.1em;
+}
+

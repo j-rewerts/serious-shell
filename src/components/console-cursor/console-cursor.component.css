@@ -1,0 +1,27 @@
+span.console-cursor {
+	background: var(--cursor-color);
+	color: var(--cursor-text-color);
+}
+
+span.console-cursor-idle {
+	animation: console-cursor-animation 1s infinite;
+}
+
+@keyframes console-cursor-animation {
+	0% {
+		background: var(--cursor-color);
+		color: var(--cursor-text-color);
+	}
+	50% {
+		background: var(--cursor-color);
+		color: var(--cursor-text-color);
+	}
+	51% {
+		background: none;
+		color: var(--prompt-color);
+	}
+	100% {
+		background: none;
+		color: var(--prompt-color);
+	}
+}

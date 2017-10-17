@@ -1,0 +1,7 @@
+div.console-prompt-box {
+	color: var(--prompt-color);
+}
+
+span.console-prompt-label {
+	font-weight: bold;
+}
