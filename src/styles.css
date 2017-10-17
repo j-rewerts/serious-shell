@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+    --monospace: 'Menlo', 'Andale Mono', 'DejaVu Sans Mono', 'Droid Sans Mono', 'Bitstream Vera Sans Mono', 'Courier New', Courier, monospace;
+    --background-color: #efefef;
+    --prompt-color: #444;
+    --message-color: #999;
+    --cursor-color: #333;
+    --cursor-text-color: #eee;
+}
