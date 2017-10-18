@@ -17,9 +17,9 @@ div.console-message {
 }
 
 div.typer-container {
-	overflow: "hidden"; 
-	height: 1;
-	width: 1;
+	overflow: hidden; 
+	height: 1px;
+	width: 1px;
 }
 
 textarea.console-typer {
