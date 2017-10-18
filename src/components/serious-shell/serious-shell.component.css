@@ -16,3 +16,17 @@ div.console-message {
 	padding: 0.1em;
 }
 
+div.typer-container {
+	overflow: "hidden"; 
+	height: 1;
+	width: 1;
+}
+
+textarea.console-typer {
+	outline: "none";
+	color: "transparent";
+	background-color: "transparent";
+	border: "none";
+	resize: "none";
+	overflow: "hidden";
+}

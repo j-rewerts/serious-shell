@@ -7,13 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ConsoleCursorComponent implements OnInit {
   isIdle: boolean;
-
+  classes: Object;
 
   constructor() {
-    this.isIdle = true;
   }
 
   setIdle() {
+    console.log('setting idle');
     this.isIdle = true;
   }
 
@@ -21,7 +21,14 @@ export class ConsoleCursorComponent implements OnInit {
     this.isIdle = false;
   }
 
+  printState() {
+    console.log('isIdle? ' + this.isIdle);
+  }
+
   ngOnInit() {
+    this.unsetIdle();
+    window.setTimeout(this.setIdle.bind(this), 3000);
+    window.setInterval(this.printState.bind(this), 1000);
   }
 
 }

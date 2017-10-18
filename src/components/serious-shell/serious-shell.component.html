@@ -2,7 +2,21 @@
   serious-shell works!
 </p>
 
-<div class="console-container">
+<div [appNewFocus]="'click'" [appFocusId]="'consoleTyper'" class="console-container">
   <app-console-prompt></app-console-prompt>
   <app-console-cursor></app-console-cursor>
+  <div class="typer-container">
+    <textarea
+      id="consoleTyper"
+      class="console-typer"
+      autocomplete="off"
+      autocorrect="off"
+      autocapitalize="none"
+      spellcheck="false"
+      onblur={this.blur}
+      onchange={this.change}
+      onkeydown={this.onKeyDown}      
+      onpaste={this.paste}
+    ></textarea>
+  </div>
 </div>
